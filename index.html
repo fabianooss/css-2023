@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Vite + Vue</title>
+  </head>
+  <body>
+    <h1 class="text-3xl font-bold underline">
+      Formulário
+    </h1>
+
+    <div class="container mx-auto">
+    <form>
+        Nome:
+        <input type="text" autofocus required size="50"/>
+        <br/>
+        Sexo:<br/>
+        <input type="radio" name="sexo" value="Masc" checked/>Masculino<br/>
+        <input type="radio" name="sexo" value="Fem"/>Feminino</br>
+        <input type="radio" name="sexo" value="Outro"/>Outro
+        <br/>
+        Marca de carro:
+        <select>
+          <option>VW</option>
+          <option>Ford</option>
+          <option selected>GM</option>
+          <option>Audi</option>
+        </select>
+        <br/>
+        Senha:
+        <input type="password" required size="10"/>
+        <br/>
+        Número:
+        <input type="number"/>
+        <br/>
+        Data:
+        <input type="date"/>
+        <br/>
+        E-mail:
+        <input type="email"/>
+        <br/>
+        Telefone:
+        <input type="tel"/>
+        <br/>
+
+
+
+        <input type="submit" value="Salvar"/>
+
+
+
+    </form>
+
+</div>
+  </body>
+</html>
